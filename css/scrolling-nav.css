@@ -1,0 +1,230 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+    
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+ 
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+#slider{
+  margin-top: 60px;
+}
+
+h2{
+    text-decoration: overline;
+    color: cadetblue;
+    
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    
+        
+    font-size: 20px;
+    
+}
+#intro1{
+       background: url('../images/sub_banner.jpg')no-repeat;
+    background-size: cover;
+    text-align: center;
+ 
+}
+#intro2{
+       background: url('../images/blood-donation-powerpoint-templates.jpg')no-repeat;
+    background-size: cover;
+    text-align: right;
+ 
+}
+.about-section {
+    height: 100%;
+   color: grey;
+    font-size: 18px;
+    padding-top: 50px;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+   text-align: left;
+   font-size: 18px;
+    background: #fff;
+}
+.services-section table{
+	width: 100%;
+    text-align: justify;
+    margin-top: 40px;
+}
+.services-section .row{
+	
+    color: grey;
+    
+}
+#update{
+    text-align: left;
+}
+.achieve-section {
+    height: 100%;
+    padding-top: 50px;
+    
+    background: #eee;
+}
+.achieve-section .progress-bar {
+	margin: 20px;
+    background:  #eee;
+    color: grey;
+    font-size: 20px;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 50px;
+    
+    background: #eee;
+}
+.contact-section #ad {
+    height: 100px;
+	font-size: 25px;
+    color: grey;
+    
+   
+    padding: 30px;
+}
+.contact-section #ad i{
+    padding: 10px;
+}
+.contact-section #ad i:hover{
+    background: cadetblue;
+    color: white;
+    
+}
+.list-section{
+    height: 100%;
+    padding-top: 50px;
+    background: #fff;
+    
+}
+
+.footer{
+    background: black;
+    font-size: 30px;
+    color: darkgray;
+    font-family: Brush Script Std;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.container-fluid #s{
+    margin-top: 50px;
+    background: rgba(255,255,255,0.3);
+    
+}
+.container-fluid {
+	background: url('../images/images(34).jpg')no-repeat;
+    background-size: cover;
+    min-height:600px ;
+}
+.nav-tabs {
+	text-decoration: none;
+    color: white;
+}
+#signup{
+    margin-top: 10px;
+   
+}
+#gb{
+    margin-top: 100px;
+}
+    #intro1 .btn{
+     margin-top: 170px;   
+    }   
+
+
+
+@media screen and (max-width:600px){
+    #intro1 {
+	background-size: cover;
+}
+       #intro1 .btn{
+       margin-top: 80px;
+    }
+    .about-section {
+	min-height: 810px;
+        font-size: 15px;
+}
+    .services-section {
+	min-height: 1300px;
+}
+    .achieve-section {
+	min-height: 800px;
+}
+    .footer {
+	margin-top: 20px;
+}
+}
+
+@media screen and (max-width:400px){
+    #intro1 {
+	background-size: cover;
+        font-size: 10px;
+}
+       #intro1 .btn{
+       margin-top: 10px;
+    }
+    .about-section {
+	min-height: 810px;
+        font-size: 15px;
+}
+    .about-section img{
+	width: 200px;
+        height: 200px;
+}
+    .services-section {
+	min-height: 1200px;
+}
+    .achieve-section {
+	min-height: 1300px;
+}
+  
+    .footer {
+	margin-top: 120px;
+}
+}
+
+
+#cer{
+    background: url('../images/ab.jpg')no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
